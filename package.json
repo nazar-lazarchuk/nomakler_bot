@@ -1,0 +1,23 @@
+{
+  "name": "nomakler_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazar-lazarchuk/nomakler_bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nazar-lazarchuk/nomakler_bot/issues"
+  },
+  "homepage": "https://github.com/nazar-lazarchuk/nomakler_bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "0.54.0"
+  }
+}
