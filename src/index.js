@@ -1,4 +1,6 @@
-const TOKEN = '5034909202:AAGP8L_cIeBAice17_q-JkOiFiYpaUQcQGA';
+require('dotenv').config();
+
+const TOKEN = process.env.TELEGRAM_TOKEN || 'TELEGRAM_BOT_TOKEN';
 
 const TelegramBotAPI = require('node-telegram-bot-api');
 
